@@ -79,7 +79,7 @@ prompt_end() {
   else
     echo -n "%{%k%}"
   fi
-  echo -n "%{%f%}"
+  echo -n "\e[m\n λ%{%f%}"
   CURRENT_BG=''
 }
 
